@@ -16,5 +16,5 @@ class DiyLink{
 	public:
 		char* bufferize();
 		DiyLink(uint8_t msgid_t, uint8_t endmsg_t, uint16_t payload1_t, uint16_t payload2_t, uint16_t payload3_t);
-
+		void print();
 };

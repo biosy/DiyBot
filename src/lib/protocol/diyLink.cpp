@@ -9,3 +9,7 @@ char* DiyLink::bufferize(){
 	return buffer;
 
 }
+
+void DiyLink::print(){
+	printf("msgid : %x , \nendmsg_t : %x, \npayload1_t : %x, \npayload2_t : %x, \npayload3_t : %x", msgid, endmsg, payload1, payload2, payload3);
+}
